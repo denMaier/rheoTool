@@ -1,0 +1,485 @@
++ wmake libso fvmb
++ wmake libso sparseMatrixSolvers
++ wmake libso gaussDefCmpwConvectionScheme
++ wmake libso thermo
++ wmake libso constitutiveEquations
++ wmake libso boundaryConditions
++ wmake rheoTestFoam
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:189:19: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+             const NamedEnum<EnumType, nEnum>& wrapped
+                   ^~~~~~~~~
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:31:26: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline Foam::label Foam::NamedEnum<EnumType, nEnum>::size() const
+                          ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:38:29: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline Foam::wordList Foam::NamedEnum<EnumType, nEnum>::toc() const
+                             ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:45:29: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline Foam::wordList Foam::NamedEnum<EnumType, nEnum>::sortedToc() const
+                             ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:52:19: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline bool Foam::NamedEnum<EnumType, nEnum>::found
+                   ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:62:19: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline bool Foam::NamedEnum<EnumType, nEnum>::hasEnum
+                   ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:74:29: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline const EnumType Foam::NamedEnum<EnumType, nEnum>::operator[]
+                             ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:201:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnumI.H:84:26: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ inline const char* Foam::NamedEnum<EnumType, nEnum>::operator[]
+                          ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:36:7: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ Foam::NamedEnum<EnumType, nEnum>::NamedEnum()
+       ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:70:22: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ Foam::wordList Foam::NamedEnum<EnumType, nEnum>::words() const
+                      ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:89:23: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ Foam::List<int> Foam::NamedEnum<EnumType, nEnum>::values() const
+                       ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:113:12: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ bool Foam::NamedEnum<EnumType, nEnum>::hasName(const EnumType e) const
+            ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:129:16: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ EnumType Foam::NamedEnum<EnumType, nEnum>::lookup
+                ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:151:16: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ EnumType Foam::NamedEnum<EnumType, nEnum>::lookupOrDefault
+                ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:168:16: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ EnumType Foam::NamedEnum<EnumType, nEnum>::read(Istream& is) const
+                ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:186:12: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+ void Foam::NamedEnum<EnumType, nEnum>::write
+            ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from /usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:204:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.C:206:11: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+     const NamedEnum<EnumType, nEnum>& wrapped
+           ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40:0,
+                 from rheoTestFoam.C:45:
+../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:220:20: warning: ‘template<class EnumType, int nEnum> class Foam::NamedEnum’ is deprecated [-Wdeprecated-declarations]
+       static const NamedEnum<stabOptions, 3> stabOptionNames_;
+                    ^~~~~~~~~
+In file included from ../../libs/constitutiveEquations/lnInclude/constitutiveEq.H:48:0,
+                 from ../../libs/constitutiveEquations/lnInclude/constitutiveModel.H:40,
+                 from rheoTestFoam.C:45:
+/usr/lib/openfoam/openfoam2306/src/OpenFOAM/lnInclude/NamedEnum.H:59:43: note: declared here
+ template<class EnumType, int nEnum> class NamedEnum;
+                                           ^~~~~~~~~
+rheoTestFoam.C: In function ‘int main(int, char**)’:
+rheoTestFoam.C:80:12: warning: ‘relTol_’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+            if (relError < relTol_ || cnt > maxIter_)
+            ^~
+rheoTestFoam.C:80:42: warning: ‘maxIter_’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+            if (relError < relTol_ || cnt > maxIter_)
+                                      ~~~~^~~~~~~~~~
+/usr/bin/ld: warning: libHYPRE-2.23.0.so, needed by /home/maier/OpenFOAM/maier-v2306/platforms/linux64GccDPInt32Opt/lib/libconstitutiveEquations.so, not found (try using -rpath or -rpath-link)
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetRelaxType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetInterpVectors'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetInterpVecQMax'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixMatvec'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructGridCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetZeroGuess'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMeasureType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetProjectionFrequency'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetSym'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetReuse'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGridSetExtents'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetLevelOuterWt'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetOverlap'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetModuleRAP2'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGraphAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetSmoothNumLevels'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetInterpRefine'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGGetNumIterations'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMinCoarseSize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorSetConstantValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetSmoothingOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_Free'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMaxCoarseSize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixGetObjectType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetDiagOffdSizes'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructStencilDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetRelaxWt'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetZeroGuess'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGraphSetStencil'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetPrintLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetAggInterpType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetRestriction'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidSetILUT'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructStencilCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRMatrixGetRow'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetRelaxOrder'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetInterpolations'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AssumedPartitionCheck'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetEdgeConstantVectors'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetAMSOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructStencilDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetCycleType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixPrint'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_BoomerAMGBuildCoarseOperator'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixScale'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorSetBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_CSRMatrixBigInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetRAP2'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixMatvec'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetKeepTranspose'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParMatmul'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetStrongThreshold'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetADropTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetOuterWt'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetAlphaPoissonMatrix'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetNumPreRelax'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre__global_error'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixSetValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_printf'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructGridSetExtents'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetMaxLevels'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixEliminateRowsCols'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorSetConstantValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetNumPreRelax'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetNodalDiag'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetDomainType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetNumFunctions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetCycleType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetInterpVecVariant'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetPMaxElmts'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetLoadbal'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixGetValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetNumPostRelax'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_StructMatrixClearBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetFilter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetFilterThresholdR'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetSmoothType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetPrintLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGridCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixAddToValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetObjectType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorGetBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidSetBJ'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetConstantValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixCopy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutSetFactorRowSize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetTruncFactor'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetSym'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixMatvecT'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetPrintLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMaxIter'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetRowSizes'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSProjectOutGradients'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetAggNumLevels'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetDiscreteGradient'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMaxLevels'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixInitialize_v2'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutSetDropTolerance'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructStencilSetElement'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructGridAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetMaxOffProcElmts'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetPrintLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixSetValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetRAPType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixInitialize_v2'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_AuxParCSRMatrixInitialize_v2'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetAMGOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGraphDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorGetObject'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGGetNumIterations'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGridSetVariables'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructGridSetNumGhost'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetSmoothInterpVectors'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetSmoothingOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixAddToValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorGetBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_CSRMatrixSetDataOwner'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGridAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixInitialize'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_AuxParCSRMatrixDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructGridDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGraphCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetNodal'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixSetBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetRelaxType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructGridDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetNumPostRelax'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixClone'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetStrongThresholdR'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetDebugFlag'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetDimension'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorSetObjectType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetCoarsenType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRPilutSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetCoordinateVectors'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParCSRMatrixRestoreRow'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGGetNumIterations'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixMatvec'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetCoordinateVectors'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructVectorSetBoxValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetADropType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetNumSweeps'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixSetValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructMatrixAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSolveT'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetPrintLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetRelaxType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixGetObject'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_EuclidSetLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSolve'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructSysPFMGSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructMatrixAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetLogging'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetEuBJ'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetNumPaths'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetParams'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParVectorMigrate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetCycleType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJVectorSetValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixGetLocalRange'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGSetTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetBetaAMGOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetAlphaAMGOptions'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetCycleRelaxType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetEuLevel'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ADSSetDiscreteCurl'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_ParaSailsSetup'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetTol'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetMaxRowSum'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixSetNumNonzeros'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructVectorAssemble'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetLevelRelaxWt'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_ParCSRMatrixDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetDiscreteGradient'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetCycleNumSweeps'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_MatvecCommPkgCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetBetaPoissonMatrix'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_BoomerAMGSetInterpType'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `hypre_CSRMatrixSetRownnz'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_SStructStencilSetEntry'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructStencilCreate'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_StructPFMGDestroy'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_IJMatrixAddToValues'
+/home/maier/OpenFOAM/maier-v2306/ThirdParty/petsc-3.16.5/arch-linux-c-opt/lib/libpetsc.so: undefined reference to `HYPRE_AMSSetInterpolations'
+collect2: error: ld returned 1 exit status
+make: *** [/home/maier/OpenFOAM/maier-v2306/platforms/linux64GccDPInt32Opt/bin/rheoTestFoam] Error 1
