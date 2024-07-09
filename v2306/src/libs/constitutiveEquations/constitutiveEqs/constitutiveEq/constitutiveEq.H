@@ -139,7 +139,9 @@ protected:
           volSymmTensorField& tau
         );
       
-        
+public:
+  // Made these public, so they can be used in a wrapper class, embedding the consitutive equations
+  // in the OpenFoam turbulance framework       
   // The following protected functions are intended to be used inside divTau() and divTauS() functions,
   // which should be general for almost all models (exception: multiMode). Any other use should be
   // carefully analyzed, with special attention to the mentioned exceptions.
@@ -238,8 +240,6 @@ protected:
         const tmp<volTensorField>& t2,
         bool isFirstT
       ) const;
-
-public:
 
     //- Runtime type information
     TypeName("constitutiveEq");
